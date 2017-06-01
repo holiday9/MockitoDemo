@@ -25,6 +25,14 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
-    testCompile 'junit:junit:4.12'
-    testCompile "org.mockito:mockito-core:2.+"
+    // start of powermockito
+    testCompile files('libs/byte-buddy-1.2.1.jar')
+    testCompile files('libs/cglib-nodep-2.2.2.jar')
+    testCompile files('libs/hamcrest-core-1.3.jar')
+    testCompile files('libs/javassist-3.21.0-GA.jar')
+    testCompile files('libs/junit-4.12.jar')
+    testCompile files('libs/mockito-core-2.0.42-beta.jar')
+    testCompile files('libs/objenesis-2.4.jar')
+    testCompile files('libs/powermock-mockito2-1.6.6-full.jar')
+    // end of powermockito
 }
