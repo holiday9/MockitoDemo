@@ -1,1 +1,0 @@
-mock TextUtils.isEmpty(), and test it.
