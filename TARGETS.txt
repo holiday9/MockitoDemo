@@ -1,3 +1,4 @@
 #单元测试框架使用实践列表
 
+理解泛型方法：自己创建一个泛型方法. 理解rommel.mockitodemo.powermock.EmployeeTest 27 行.
 
